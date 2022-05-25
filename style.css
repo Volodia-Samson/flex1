@@ -1,24 +1,32 @@
-      html {
-          font-size: 24px;
-      }
+html {
+    font-size: 24px;
+  }
 
-      div {
-          margin: 16px;
-          border: 1px solid burlywood;
-      }
+  div {
+    margin: 16px;
+    border: 1px solid burlywood;
+  }
 
-      .horizontal>span {
-          display: flex;
-        flex-direction: row;
-          background-color: aqua;
-          justify-content: space-around;
-          height: 50px;
-      }
+  .horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+  }
 
-      .vertical>span {
-          display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 200px;
-          background-color: coral;
-      }
+  .horizontal > span {
+    background-color: aqua;
+
+  }
+
+  .vertical{
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .vertical > span {
+    background-color: coral;
+  }
